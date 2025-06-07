@@ -1,5 +1,5 @@
 ---
-title: COSMAC Lab.
+title: COSMAC研究会について
 Subtitle: ""
 date: 1999-01-01
 Lastmod : 
@@ -18,8 +18,7 @@ Description  : "COSMAC研究会では1970年代から製造され続けている
 
 さすがにこのCPUはもう手に入らないだろうと海外の通販サイトを探したところ、再生品ですが安価に入手できました。
 
-2019年の現在でも手に入れることができるCOSMAC CPUで、過去の文献を参考に、現在入手可能なパーツでレトロコンピュータを動かしてみようとCOSMAC研究会の活動が始まりました。
-
+現在でも手に入れることができるCOSMAC CPUで、過去の文献を参考に、現在入手可能なパーツでレトロコンピュータを動かしてみようとCOSMAC研究会の活動が始まりました。
 
 ### Author
 
@@ -30,6 +29,7 @@ Description  : "COSMAC研究会では1970年代から製造され続けている
 デジモノや電子工作が好きです。Arduino,Raspberry Pi,M5Stack,ESP32,RDK X3やCOSMAC,DCJ11等のレトロCPU、ルンバ,kobuki,turtlebot3,Mini Pupper 2等のロボットとROS2で遊んでいます。セキュリティも少々。CISSP, CISA
 
 ### Social Media
+
 - [Twitter](https://twitter.com/kanpapa)
  
 
