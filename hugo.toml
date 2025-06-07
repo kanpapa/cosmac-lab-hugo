@@ -1,4 +1,109 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'lightbi-hugo'
+baseURL = "https://kanpapa.github.io/cosmac-lab"
+DefaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+languageCode = "ja"
+title = "COSMAC研究会"
+theme = "lightbi-hugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+enableRobotsTXT = true
+enableGitInfo = false
+summaryLength  = "30"
+ignoreLogs = ['warning-goldmark-raw-html']
+CanonifyURLs=true
+
+[pagination]
+pagerSize = 6
+
+[Params]
+selfHosted = true
+mainSections = ["projects","about"]
+dateFormat = "02 January 2006"
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+socialShare = true
+delayDisqus = true
+showRelatedPosts = true
+summaryLength  = "9"
+lunrSearch = true
+gcse = false
+lastmod = false
+rss = false
+pagination = "10"
+hideAuthor = false
+description="Your can add your website description here."
+previewCardImagePlacement = "bottom"
+showPostImage = false
+
+[Params.Author]
+  name = "kanpapa"
+  website = "https://kanpapa.com/"
+  authorInfo = "デジモノが好きです。Arduino,mbed,Raspberry Pi,M5STACK,RDK X3を使った電子工作、COSMAC,MC68EZ328,DCJ11などのレトロCPU、ROS2でルンバ,kobuki,turtlebot3などのロボットと遊んでいます。セキュリティも少々。CISSP, CISA"
+  authorPostImage = "/img/author-post-img.jpg"
+  #email = "sample@gmail.com"
+  #facebook = "username"
+  #instagram = "username"
+  youtube = "@kaoouchi/Kanpapa’s Lab." # or channel/channelname
+  twitter = "kanpapa"
+  #linkedin = "username"
+  github = "kanpapa"
+  #threads = "username"
+  #gitlab = "username"
+  #reddit = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #spotify = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #mastodon = "url"
+  #slack = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #500px = "username"
+  #kaggle = "username"
+  #weibo = "username"
+  #xing = "username"
+  #bitbucket = "username"
+  #soundcloud = "username"
+  # codepen = "username"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "Blogs"
+#    url = "https://kanpapa.com/today/category/cosmac/"
+    url = "https://kanpapa.com/cosmac/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 5
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
