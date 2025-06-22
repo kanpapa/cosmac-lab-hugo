@@ -22,4 +22,4 @@ Visit the GitHub [COSMAC MBC](https://github.com/kanpapa/cosmac_mbc) !
 
 ### Blog
 
-Visit our [blog](https://kanpapa.com/cosmac/blog/category/cosmac-mbc) !
+Visit our [blog](https://kanpapa.com/category/cosmac-mbc) !

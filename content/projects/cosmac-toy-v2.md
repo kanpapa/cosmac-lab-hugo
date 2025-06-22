@@ -22,4 +22,4 @@ Visit the GitHub [COSMAC TOY V2](https://github.com/kanpapa/cosmac_toy_v2) !
 
 ### Blog
 
-Visit our [blog](https://kanpapa.com/cosmac/blog/category/cosmac-toy) !
+Visit our [blog](https://kanpapa.com/category/cosmac-toy-v2) !
